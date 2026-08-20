@@ -1,12 +1,18 @@
 {
 	"createdTime":1787235447968,
 	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1787235509721,
+		"deployedBy":199810,
+		"entityVersion":2,
+		"version":1
+	},
 	"entityType":"ai_agent",
 	"id":"e_6a870c77193f150bff9d5df1",
-	"lastModifiedBy":199810,
-	"lastPlatformUpdateBy":199810,
-	"lastPlatformUpdateOn":1787235447968,
-	"modifiedTime":1787235447968,
+	"lastModifiedBy":33444,
+	"lastPlatformUpdateBy":33444,
+	"lastPlatformUpdateOn":1787235997379,
+	"modifiedTime":1787235997379,
 	"ownerUserId":199810,
 	"properties":{
 		"mcpEnabled":false,
@@ -19,7 +25,10 @@
 			"strategySettings":{
 				"defaultStrategy":{
 					"documentParsingConfig":{
-						"type":"APPLICATION"
+						"connectionId":"678f51ab71e2f00db5da31a8",
+						"type":"AGENTIC",
+						"agenticParsingModel":"e_6a4baedf8c5b335bafef3551",
+						"appName":"unstructured"
 					},
 					"contentTypeConfig":{
 						"image":{
@@ -80,6 +89,20 @@
 			"rankingModel":"e_6a564136de000a297c19e476",
 			"chunkRetrieval":50
 		},
+		"evalSettings":{
+			"samplingRate":50.0,
+			"enableTime":1787235997234,
+			"metricIds":[],
+			"runFrequency":{
+				"value":5.0,
+				"unit":"MINUTES"
+			},
+			"sessionCloseTime":{
+				"value":24.0,
+				"unit":"HOURS"
+			},
+			"isEnabled":true
+		},
 		"archived":false,
 		"feedbackIndexingEnabled":false,
 		"summarise":false,
@@ -113,5 +136,5 @@
 	"tags":[
 		
 	],
-	"version":0
+	"version":3
 }
