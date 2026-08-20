@@ -1,0 +1,43 @@
+{
+	"createdTime":1785513095736,
+	"deleted":false,
+	"deploymentState":{
+		"deployedAt":1787227283910,
+		"deployedBy":-1,
+		"entityVersion":27,
+		"version":2
+	},
+	"entityType":"ai_agent",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A"
+				],
+				"principalType":"GLOBAL"
+			}
+		]
+	},
+	"id":"tensor_builder",
+	"lastModifiedBy":-1,
+	"modifiedTime":1787229903656,
+	"ownerUserId":-1,
+	"properties":{
+		"name":"Tensor Builder",
+		"defaultTools":{
+			"webSearch":true,
+			"summaryTool":true,
+			"todo_tool":true
+		},
+		"agentType":"ai-agent",
+		"topicExecutionSettings":{
+			"topicSelectionModel":"e_69ce39f38f978106088ac428",
+			"topicExecutionModel":"e_69ce39f38f978106088ac428"
+		}
+	},
+	"standard":true,
+	"tags":[
+		"text-to-ui"
+	],
+	"version":28
+}
